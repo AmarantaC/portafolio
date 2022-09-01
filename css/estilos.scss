@@ -2,9 +2,6 @@
 
 $principal: black;
 $secundario: white;
-$acerca1: rgb(228, 54, 135);
-$proyectos1: rgb(209, 142, 209);
-$contacto1: rgb(60, 60, 206);
 
 $fuentePrincipal: 'Quicksand', sans-serif;
 
@@ -22,7 +19,9 @@ body {
     margin: auto;               
     border: 2px solid black;
     box-shadow: black 8px 8px ;
-    align-content: center;     
+    align-content: center;
+    z-index: 5;  
+    position: relative;   
 
     h1{
         letter-spacing: 2px;
@@ -72,7 +71,8 @@ body {
     }
 
     .item{      
-        width: 100%;  
+        width: 100%; 
+        height: 100%; 
         z-index: -5;  
         display: flex;  
         flex-wrap: wrap;        
@@ -259,18 +259,20 @@ body {
 //------- Proyectos -------//
 
 #proyectos{
-    margin: 40px 20px;
+   
     width: 100%;
     height: 100%; 
     flex-wrap: wrap;        
     
     .contenedor-slider {   
-        width: 100%;
-        height: 100%;             
+        width: 90%; 
+        align-content: center;
+        margin: auto;        
+     
 
         .carousel {
             background: #fff;
-            border: 2px solid black;
+            border: 2px solid white;
             box-shadow: black 8px 8px ;
             width: 100%;
             max-width: 700px;
@@ -280,8 +282,7 @@ body {
             position: relative;              
           
             .slider {
-                display: flex;
-                height: 100%;
+                display: flex;                
                 width: 300%;
                 flex-shrink: 0;
                 transition: all 0.5s;
@@ -293,12 +294,67 @@ body {
                     justify-content: center;
                     align-items: center;
                     font-size: 20px;
+
+                    div{
+
+                        background-position: center;
+                        background-size: cover;
+                        width: 100%;
+                        height: 100%;  
+                        display: flex;                    
+
+                        h2{
+
+                            background-color: $secundario;
+                            border: $principal 2px solid;
+                            width: 200px;
+                            margin: auto;
+                            padding: 20px;  
+                            display: flex; 
+                            margin-top: 130px;
+                            box-shadow: black 8px 8px ;
+                            background-color: $secundario;
+                                                        
+                            a{
+                                text-decoration: none;
+                                font-size: 18px;
+                                color: $principal;       
+                            }
+
+                            a:hover{
+                                color: $secundario;
+                            }                            
+                        }
+                    }
+
+                    .a{
+                        background-image: url(../img/web1.gif) ;                        
+                        h2:hover{
+                            background-color:#6595fd;                            
+                        }
+                    }
+
+                    .b{
+                        background-image: url(../img/web2.gif) ;                        
+                        h2:hover{
+                            background-color:#d634ce;                            
+                        }
+                    }
+
+                    .c{
+                        background-image: url(../img/web3.gif) ;                        
+                        h2:hover{
+                            background-color:#e42484;                            
+                        }
+                    }
                 }
+      
+
+               
             }           
         }
     }
-
-
+    
     .controls {
         
         button{
@@ -307,9 +363,22 @@ body {
             border: none;
             cursor: pointer;          
             top: 150px;
+            background-color: $principal;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
 
             i {
                 font-size: 50px;
+                color: $secundario;
+            }
+        }
+
+        button:hover{
+            background-color: $secundario;
+
+            i{
+                color: $principal;
             }
         }
 
@@ -349,9 +418,9 @@ body {
 
         
     .redes{
-        width: 100%;           
-        height: 100%;
-        margin: auto ;
+        width: 100%;        
+    
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -369,7 +438,7 @@ body {
             transition: 0.3s ease all;
             text-align: center;
             align-items: center;
-            margin:10px auto;
+            margin:20px auto;            
             background-color: rgba(255, 255, 255, 0.4); 
 
             a {  
@@ -382,7 +451,8 @@ body {
                 text-decoration: none;    
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%, -50%);          
+                transform: translate(-50%, -50%);  
+                
             }   
 
         }
@@ -491,19 +561,35 @@ body {
     }
 
     #proyectos{
-        margin:100px;
+     
         
         .contenedor-slider {   
             width: 60%;          
         
             .carousel {
                 height: 400px;
+                .slider{
+                    .slide{
+                        div{
+                            h2{
+                                margin-top: 155px;
+                            }
+                        }
+                    }
+                }
+
+
             }
 
             button{
                 top:180px;
             }
-        }      
+        }
+        
+        .titulo{
+            margin-top: 110px;
+            margin-left: -200px;
+        }
     }
 
     #contacto{
