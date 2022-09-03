@@ -170,6 +170,7 @@ body {
 
 #sobremi {
   width: 100%;
+  height: 100%;
 }
 #sobremi .texto {
   width: 100%;
@@ -389,8 +390,8 @@ body {
   display: flex;
   align-items: center;
   margin: auto;
-  padding-top: 50px;
   padding-right: 80px;
+  padding-bottom: 30px;
 }
 #contacto .imagen img {
   width: 70%;
