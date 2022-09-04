@@ -175,7 +175,7 @@ body {
 #sobremi .texto {
   width: 100%;
   font-size: 16px;
-  bottom: 5px;
+  margin-bottom: 5px;
   padding: 10px;
   background-color: white;
   margin: 20px;
@@ -319,11 +319,24 @@ body {
 #proyectos .titulo {
   width: 150px;
   height: 150px;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 0px;
 }
 #proyectos .titulo h1 {
   padding-top: 40px;
+}
+#proyectos .mel1 {
+  display: none;
+  width: 20%;
+  height: 300px;
+  margin: auto;
+}
+#proyectos .mel2 {
+  display: flex;
+  height: 100px;
+  width: 30%;
+  margin: auto;
+  margin-left: -60px;
+  margin-bottom: 0px;
 }
 
 #contacto {
@@ -462,6 +475,12 @@ body {
   #proyectos .titulo {
     margin-top: 110px;
     margin-left: -200px;
+  }
+  #proyectos .mel1 {
+    display: flex;
+  }
+  #proyectos .mel2 {
+    display: none;
   }
   #contacto .redes {
     margin-top: 150px;
