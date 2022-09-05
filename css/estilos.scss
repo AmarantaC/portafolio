@@ -11,10 +11,6 @@ body {
     font-family: $fuentePrincipal;
     margin:0px;
     width: 100%; 
-    background-color: black;
-   
-   
-
 }
 
 .titulo{
@@ -79,7 +75,8 @@ body {
         height: 100%; 
         z-index: -5;  
         display: flex;  
-        flex-wrap: wrap;        
+        flex-wrap: wrap;  
+        background-color: black;      
     }
 }
 

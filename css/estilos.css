@@ -2,7 +2,6 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0px;
   width: 100%;
-  background-color: black;
 }
 
 .titulo {
@@ -70,6 +69,7 @@ body {
   z-index: -5;
   display: flex;
   flex-wrap: wrap;
+  background-color: black;
 }
 
 .menu {
