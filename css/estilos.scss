@@ -20,7 +20,7 @@ body {
     border: 2px solid black;
     box-shadow: black 8px 8px ;
     align-content: center;
-    z-index: 5;  
+    z-index: 3;  
     position: relative;   
 
     h1{
@@ -85,7 +85,8 @@ body {
     height: 100%; 
     width: 100%;   
     position: absolute;     
-    position: fixed;    
+    position: fixed;
+    z-index: 5;    
 
     div {
         display: flex;          
@@ -209,15 +210,15 @@ body {
 
 #sobremi{
     width: 100%;
-  
+    height: 100%; 
+    margin: 20px;
 
     .texto{        
-        width: 100%;        
-        font-size: 16px;
-        margin-bottom: 5px; 
+        width: 100%;  
+        margin: auto;             
+        font-size: 16px;       
         padding:10px;
-        background-color: $secundario;
-        margin: 20px;
+        background-color: $secundario;        
         margin-right: 85px;        
         box-shadow: black 8px 8px;
         border: solid black 2px;    
@@ -245,8 +246,7 @@ body {
         .titulo{
           
             width:120px;   
-            height: 120px; 
-            margin-top: 20px;
+            height: 120px;             
             margin-bottom: -70px;            
             margin-right: 40px;                
      
@@ -401,7 +401,7 @@ body {
         width:150px;   
         height: 150px; 
         margin-top: 0px;  
-        margin-left: -20px;                
+        margin-left: -50px;               
                 
         h1{   
             padding-top: 40px;  
@@ -432,14 +432,13 @@ body {
 
 //------- Contacto -------//
 #contacto{
-    width: 100%;       
+    width: 100%; 
+    height: 100%;      
     margin:auto;
-   
-    
-        
+            
     .redes{
         width: 100%; 
-        height: 300px;    
+        height: 250px;    
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -507,8 +506,7 @@ body {
         width: 100%;         
         display: flex;
         align-items: center;
-        margin: auto;
-        
+        margin: auto;        
         padding-right: 80px; 
         padding-bottom: 30px;         
 
@@ -526,8 +524,9 @@ body {
             width:130px;   
             height: 130px; 
             margin: auto;
-            margin-top: -30px;
-            margin-left: -100px;
+            top: -30px;
+            left: -100px;
+
                           
             h1{   
                 padding-top: 35px;  
