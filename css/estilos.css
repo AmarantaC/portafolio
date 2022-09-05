@@ -26,7 +26,6 @@ body {
 .portafolio {
   height: 100%;
   max-height: 100% !important;
-  overflow-y: hidden !important;
   width: 100%;
   left: 0;
   right: 0;
