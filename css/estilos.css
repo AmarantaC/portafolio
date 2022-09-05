@@ -2,8 +2,6 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0px;
   width: 100%;
-  height: 100%;
-  max-height: 100% !important;
 }
 
 .titulo {
@@ -24,8 +22,6 @@ body {
 }
 
 .portafolio {
-  height: 100%;
-  max-height: 100% !important;
   width: 100%;
   left: 0;
   right: 0;
