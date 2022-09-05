@@ -172,11 +172,11 @@ body {
 #sobremi {
   width: 100%;
   height: 100%;
-  margin: 20px;
+  margin: auto;
 }
 #sobremi .texto {
   width: 100%;
-  margin: auto;
+  margin: 20px;
   font-size: 16px;
   padding: 10px;
   background-color: white;
@@ -192,6 +192,7 @@ body {
   width: 100%;
   max-width: 600px;
   margin: auto;
+  margin-top: 20px;
 }
 #sobremi .imagen img {
   width: 90%;
@@ -203,7 +204,7 @@ body {
 #sobremi .imagen .titulo {
   width: 120px;
   height: 120px;
-  margin-bottom: -70px;
+  margin-bottom: -80px;
   margin-right: 40px;
 }
 #sobremi .imagen .titulo h1 {
@@ -212,7 +213,6 @@ body {
 
 #proyectos {
   width: 100%;
-  height: 100%;
   flex-wrap: wrap;
 }
 #proyectos .contenedor-slider {
@@ -330,6 +330,7 @@ body {
   width: 20%;
   height: 300px;
   margin: auto;
+  margin-bottom: 0px;
 }
 #proyectos .mel2 {
   display: flex;
@@ -404,14 +405,13 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  margin: auto;
-  padding-right: 80px;
-  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-top: -80px;
 }
 #contacto .imagen img {
   width: 70%;
   max-width: 400px;
-  margin: auto;
+  display: flex;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: black 8px 8px;
@@ -420,7 +420,7 @@ body {
   width: 130px;
   height: 130px;
   margin: auto;
-  top: -30px;
+  margin-top: -10px;
   left: -100px;
 }
 #contacto .imagen .titulo h1 {
@@ -460,7 +460,7 @@ body {
     padding: 30px;
   }
   #proyectos {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   #proyectos .contenedor-slider {
     width: 60%;
