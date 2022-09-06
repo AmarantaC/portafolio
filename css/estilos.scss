@@ -61,8 +61,6 @@ body {
     -moz-animation: animacionFondo 80s ease infinite;
     animation: animacionFondo 80s ease infinite;    
     display: flex;  
-    flex-wrap: wrap;
-    margin: auto;
     overflow: scroll;
 
     .info, .contenedor-info{   
@@ -218,13 +216,16 @@ body {
     
     .texto{        
         width: 100%;  
-        margin: 20px;            
+        margin-left: 10px;         
         font-size: 16px;       
         padding:10px;
         background-color: $secundario;        
         margin-right: 85px;        
         box-shadow: black 8px 8px;
-        border: solid black 2px;    
+        border: solid black 2px; 
+        margin-top: 0px;
+         
+           
 
         strong{
             font-size: 20px;

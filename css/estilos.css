@@ -34,8 +34,6 @@ body {
   -webkit-animation: animacionFondo 80s ease infinite;
   animation: animacionFondo 80s ease infinite;
   display: flex;
-  flex-wrap: wrap;
-  margin: auto;
   overflow: scroll;
 }
 @-webkit-keyframes animacionFondo {
@@ -176,13 +174,14 @@ body {
 }
 #sobremi .texto {
   width: 100%;
-  margin: 20px;
+  margin-left: 10px;
   font-size: 16px;
   padding: 10px;
   background-color: white;
   margin-right: 85px;
   box-shadow: black 8px 8px;
   border: solid black 2px;
+  margin-top: 0px;
 }
 #sobremi .texto strong {
   font-size: 20px;
