@@ -2,6 +2,7 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0px;
   width: 100%;
+  margin: 0;
 }
 
 .titulo {
@@ -27,14 +28,15 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
   position: absolute;
   background: linear-gradient(274deg, #7ec9e6, #7ce098, #fabf4d, #f18d52, #e95758, #f583b4, #cb88ef, #8669d6, #5381e8);
   background-size: 2000%, 2000%;
   -webkit-animation: animacionFondo 80s ease infinite;
   animation: animacionFondo 80s ease infinite;
   display: flex;
-  overflow: scroll;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow-y: scroll;
 }
 @-webkit-keyframes animacionFondo {
   0% {
@@ -169,12 +171,11 @@ body {
 
 #sobremi {
   width: 100%;
-  height: 100%;
-  margin: auto;
+  flex-wrap: wrap;
 }
 #sobremi .texto {
   width: 100%;
-  margin-left: 10px;
+  margin: 20px;
   font-size: 16px;
   padding: 10px;
   background-color: white;
@@ -190,20 +191,17 @@ body {
 #sobremi .imagen {
   width: 100%;
   max-width: 600px;
-  margin: auto;
-  margin-top: 20px;
+  margin: 10px;
 }
 #sobremi .imagen img {
-  width: 90%;
+  width: 80%;
   max-width: 600px;
-  margin: auto;
   align-items: center;
-  padding: 10px;
 }
 #sobremi .imagen .titulo {
   width: 120px;
   height: 120px;
-  margin-bottom: -80px;
+  margin-bottom: -90px;
   margin-right: 40px;
 }
 #sobremi .imagen .titulo h1 {
@@ -438,10 +436,10 @@ body {
   }
   #sobremi .imagen {
     width: 35%;
+    margin: auto;
   }
   #sobremi .imagen img {
     width: 100%;
-    margin: 30px;
   }
   #sobremi .imagen .titulo {
     width: 130px;
