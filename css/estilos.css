@@ -23,6 +23,15 @@ body {
   font-size: 20PX;
 }
 
+.texto {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: black 8px 8px;
+  border: solid black 2px;
+}
+
 .portafolio {
   width: 100%;
   min-height: 100vh;
@@ -37,7 +46,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  overflow-y: scroll;
 }
 @-webkit-keyframes animacionFondo {
   0% {
@@ -176,14 +184,8 @@ body {
   align-content: center;
 }
 #sobremi .texto {
-  width: 100%;
   margin: 20px;
-  font-size: 16px;
-  padding: 10px;
-  background-color: white;
   margin-right: 85px;
-  box-shadow: black 8px 8px;
-  border: solid black 2px;
 }
 #sobremi .texto strong {
   font-size: 20px;
@@ -358,7 +360,15 @@ body {
   align-items: center;
   margin: 20px;
 }
-#contacto .redes div {
+#contacto .redes .texto2 {
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+#contacto .redes .red {
   width: 120px;
   height: 120px;
   display: flex;
@@ -372,7 +382,7 @@ body {
   margin: auto;
   background-color: rgba(255, 255, 255, 0.4);
 }
-#contacto .redes div a {
+#contacto .redes .red a {
   font-size: 70px;
   text-decoration: none;
   width: 130px;
@@ -384,7 +394,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#contacto .redes div:before {
+#contacto .redes .red:before {
   transition: 0.5s all ease;
   position: absolute;
   top: 0;
@@ -397,7 +407,7 @@ body {
   z-index: 1;
   border-radius: 50%;
 }
-#contacto .redes div:hover:before {
+#contacto .redes .red:hover:before {
   transition: 0.5s all ease;
   left: 0%;
   right: 0%;
