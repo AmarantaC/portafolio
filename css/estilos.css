@@ -294,6 +294,12 @@ body {
 #proyectos .contenedor-slider .carousel .slider .slide .c h2:hover {
   background-color: #e42484;
 }
+#proyectos .contenedor-slider .carousel .slider .slide .d {
+  background-image: url(../img/web4.gif);
+}
+#proyectos .contenedor-slider .carousel .slider .slide .d h2:hover {
+  background-color: #76dba8;
+}
 #proyectos .controls button {
   position: absolute;
   background: none;
