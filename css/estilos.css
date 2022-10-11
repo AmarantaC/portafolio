@@ -238,12 +238,12 @@ body {
 }
 #proyectos .contenedor-slider .carousel .slider {
   display: flex;
-  width: 300%;
+  width: 400%;
   flex-shrink: 0;
   transition: all 0.5s;
 }
 #proyectos .contenedor-slider .carousel .slider .slide {
-  flex-basis: 33.3%;
+  flex-basis: 25%;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
