@@ -8,7 +8,7 @@ let direction;
 next.addEventListener('click', function() {
   direction = -1;
   carousel.style.justifyContent = 'flex-start';
-  slider.style.transform = 'translate(-25%)';  
+  slider.style.transform = 'translate(-33.333333%)';  
 });
 
 prev.addEventListener('click', function() {
@@ -17,7 +17,7 @@ prev.addEventListener('click', function() {
     slider.appendChild(slider.firstElementChild);
   }
   carousel.style.justifyContent = 'flex-end';    
-  slider.style.transform = 'translate(25%)';  
+  slider.style.transform = 'translate(33.33333333%)';  
   
 });
 

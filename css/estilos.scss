@@ -298,12 +298,12 @@ body {
           
             .slider {
                 display: flex;                
-                width: 400%;
+                width: 300%;
                 flex-shrink: 0;
                 transition: all 0.5s;
                 
                 .slide {
-                    flex-basis: 25%;
+                    flex-basis: 33.333333%;
                     flex-shrink: 0;
                     display: flex;
                     justify-content: center;
@@ -339,13 +339,6 @@ body {
                             a:hover{
                                 color: $secundario;
                             }                            
-                        }
-                    }
-
-                    .a{
-                        background-image: url(../img/web1.gif) ;                        
-                        h2:hover{
-                            background-color:#6595fd;                            
                         }
                     }
 
